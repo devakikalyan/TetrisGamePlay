@@ -1,0 +1,30 @@
+Replace self.shapeProb in modules/shape.py with the experiment that you are using
+
+Experiment 1:
+    self.shapeProb = {
+        str(self.shape_O) : 0.25,
+        str(self.shape_I) : 0.25,
+        str(self.shape_T) : 0.25,
+        str(self.shape_J) : 0.25,
+        }
+Experiment 2:
+    self.shapeProb = {
+        str(self.shape_O) : 0.35,
+        str(self.shape_I) : 0.25,
+        str(self.shape_T) : 0.10,
+        str(self.shape_J) : 0.30,
+        }
+Experiment 3:
+    self.shapeProb = {
+        str(self.shape_O) : 0.4,
+        str(self.shape_I) : 0.2,
+        str(self.shape_T) : 0.1,
+        str(self.shape_J) : 0.3,
+        }
+Experiment 4:
+    self.shapeProb = {
+        str(self.shape_O) : 0.1,
+        str(self.shape_I) : 0.1,
+        str(self.shape_T) : 0.4,
+        str(self.shape_J) : 0.4,
+        }
